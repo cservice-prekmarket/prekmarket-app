@@ -791,7 +791,7 @@
                 "bottom":0.0}
         },
         {
-            "category":"417",
+            "category":"430,419,429,421,918,427,425,916,917,426,424,428,418,423,420",
             "name":"សៀវភៅ",
             "layout":"threeColumn",
             "isSnapping":false,
@@ -2942,6 +2942,16 @@
                     "name":"ស្កុត",
                     "parent":"799",
                     "category":"816"
+                },
+                {
+                    "name":"ក្លីប",
+                    "category":"921",
+                    "parent":"799"
+                },
+                {
+                    "name":"កាវ",
+                    "category":"920",
+                    "parent":"799"
                 },
                 {
                     "name":"សម្ភារៈបោះតង់",
