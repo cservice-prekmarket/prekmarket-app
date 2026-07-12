@@ -1972,7 +1972,7 @@
           },
           "parallaxImageRatio":1.2
         },
-        "enable":true,
+        "enable":false,
         "iconSize":24,
         "updatedTime":1760882501159,
         "closePosition":"topRight",
