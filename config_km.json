@@ -3318,7 +3318,7 @@
                     "enableDivider":false,
                     "enableForward":true,
                     "requiredLogin":true,
-                    "roles": ["customer", "administrator"],
+                    "roles": ["customer", "subscriber", "administrator"],
                     "enableBackward":true,
                     "iconFontFamily":"MaterialIcons",
                     "buttonAlignment":"centerLeft"
