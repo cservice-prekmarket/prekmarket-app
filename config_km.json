@@ -921,7 +921,7 @@
                                 "type":"static",
                                 "textColor":"FF546E7A",
                                 "alignment":"center",
-                                "fontWeight":800,
+                                "fontWeight":700,
                                 "fontSize":20.0,
                                 "textOpacity":1.0,
                                 "marginLeft":0.0,
@@ -936,7 +936,7 @@
                                 "rotate":[],
                                 "minWidth":0.0,
                                 "backgroundGradientColor":[],
-                                "font":"Roboto",
+                                "font":"Hanuman",
                                 "layout":"header_text"
                             },
                             "scripts":[],
@@ -1157,7 +1157,7 @@
                                         "overflow":null,
                                         "fontStyle":null,
                                         "decoration":null,
-                                        "fontFamily":null,
+                                        "fontFamily":"Hanuman",
                                         "fontWeight":null,
                                         "wordSpacing":null,
                                         "letterSpacing":null,
@@ -1210,7 +1210,7 @@
                             "child":{
                                 "type":"custom",
                                 "config":{
-                                    "font":"Roboto",
+                                    "font":"Hanuman",
                                     "type":"color",
                                     "height":44,
                                     "layout":"header_text",
@@ -1271,7 +1271,7 @@
                             "child":{
                                 "type":"custom",
                                 "config":{
-                                    "font":"Roboto",
+                                    "font":"Hanuman",
                                     "type":"typer",
                                     "textColor":"FF626166",
                                     "height":44,
@@ -1758,7 +1758,7 @@
                                 "type":"static",
                                 "textColor":"FF546E7A",
                                 "alignment":"center",
-                                "fontWeight":800,
+                                "fontWeight":700,
                                 "fontSize":20.0,
                                 "textOpacity":1.0,
                                 "marginLeft":0.0,
@@ -1773,7 +1773,7 @@
                                 "rotate":[],
                                 "minWidth":0.0,
                                 "backgroundGradientColor":[],
-                                "font":"Roboto",
+                                "font":"Hanuman",
                                 "layout":"header_text"
                             },
                             "scripts":[],
@@ -3456,7 +3456,7 @@
                                     "child":{
                                         "type":"custom",
                                         "config":{
-                                            "font":"Roboto",
+                                            "font":"Hanuman",
                                             "type":"fade",
                                             "height":44,
                                             "layout":"header_text",
@@ -3719,7 +3719,7 @@
                                     "child":{
                                         "type":"custom",
                                         "config":{
-                                            "font":"Roboto",
+                                            "font":"Hanuman",
                                             "type":"static",
                                             "title":"ℹ️ ព័ត៌មានបន្ថែមអំពីផលិតផល សូមទំនាក់ទំនងផ្ទាល់ជាមួយអ្នកលក់",
                                             "height":44,
@@ -4016,7 +4016,7 @@
                                     "child":{
                                         "type":"custom",
                                         "config":{
-                                            "font":"Roboto",
+                                            "font":"Hanuman",
                                             "type":"fade",
                                             "height":44,
                                             "layout":"header_text",
@@ -4214,7 +4214,7 @@
                                     "child":{
                                         "type":"custom",
                                         "config":{
-                                            "font":"Roboto",
+                                            "font":"Hanuman",
                                             "type":"static",
                                             "title":"ℹ️ ព័ត៌មានបន្ថែមអំពីផលិតផល សូមទំនាក់ទំនងផ្ទាល់ជាមួយអ្នកលក់",
                                             "height":44,
@@ -4511,7 +4511,7 @@
                                     "child":{
                                         "type":"custom",
                                         "config":{
-                                            "font":"Roboto",
+                                            "font":"Hanuman",
                                             "type":"fade",
                                             "height":44,
                                             "layout":"header_text",
@@ -5010,7 +5010,7 @@
                                     "child":{
                                         "type":"custom",
                                         "config":{
-                                            "font":"Roboto",
+                                            "font":"Hanuman",
                                             "type":"static",
                                             "title":"ℹ️ ព័ត៌មានបន្ថែមអំពីផលិតផល សូមទំនាក់ទំនងផ្ទាល់ជាមួយអ្នកលក់",
                                             "height":44,
@@ -5309,7 +5309,7 @@
                                     "child":{
                                         "type":"custom",
                                         "config":{
-                                            "font":"Roboto",
+                                            "font":"Hanuman",
                                             "type":"fade",
                                             "height":44,
                                             "layout":"header_text",
@@ -5613,7 +5613,7 @@
                                     "child":{
                                         "type":"custom",
                                         "config":{
-                                            "font":"Roboto",
+                                            "font":"Hanuman",
                                             "type":"static",
                                             "title":"ℹ️ ព័ត៌មានបន្ថែមអំពីផលិតផល សូមទំនាក់ទំនងផ្ទាល់ជាមួយអ្នកលក់",
                                             "height":44,
@@ -5906,7 +5906,7 @@
                                     "child":{
                                         "type":"custom",
                                         "config":{
-                                            "font":"Roboto",
+                                            "font":"Hanuman",
                                             "type":"fade",
                                             "height":44,
                                             "layout":"header_text",
@@ -6184,7 +6184,7 @@
                                     "child":{
                                         "type":"custom",
                                         "config":{
-                                            "font":"Roboto",
+                                            "font":"Hanuman",
                                             "type":"static",
                                             "title":"ℹ️ ព័ត៌មានបន្ថែមអំពីផលិតផល សូមទំនាក់ទំនងផ្ទាល់ជាមួយអ្នកលក់",
                                             "height":44,
@@ -6481,7 +6481,7 @@
                                     "child":{
                                         "type":"custom",
                                         "config":{
-                                            "font":"Roboto",
+                                            "font":"Hanuman",
                                             "type":"fade",
                                             "height":44,
                                             "layout":"header_text",
@@ -6739,7 +6739,7 @@
                                     "child":{
                                         "type":"custom",
                                         "config":{
-                                            "font":"Roboto",
+                                            "font":"Hanuman",
                                             "type":"static",
                                             "title":"ℹ️ ព័ត៌មានបន្ថែមអំពីផលិតផល សូមទំនាក់ទំនងផ្ទាល់ជាមួយអ្នកលក់",
                                             "height":44,
@@ -7032,7 +7032,7 @@
                                     "child":{
                                         "type":"custom",
                                         "config":{
-                                            "font":"Roboto",
+                                            "font":"Hanuman",
                                             "type":"fade",
                                             "height":44,
                                             "layout":"header_text",
@@ -7290,7 +7290,7 @@
                                     "child":{
                                         "type":"custom",
                                         "config":{
-                                            "font":"Roboto",
+                                            "font":"Hanuman",
                                             "type":"static",
                                             "title":"ℹ️ ព័ត៌មានបន្ថែមអំពីផលិតផល សូមទំនាក់ទំនងផ្ទាល់ជាមួយអ្នកលក់",
                                             "height":44,
@@ -7588,7 +7588,7 @@
                                     "child":{
                                         "type":"custom",
                                         "config":{
-                                            "font":"Roboto",
+                                            "font":"Hanuman",
                                             "type":"fade",
                                             "height":44,
                                             "layout":"header_text",
@@ -7866,7 +7866,7 @@
                                     "child":{
                                         "type":"custom",
                                         "config":{
-                                            "font":"Roboto",
+                                            "font":"Hanuman",
                                             "type":"static",
                                             "title":"ℹ️ ព័ត៌មានបន្ថែមអំពីផលិតផល សូមទំនាក់ទំនងផ្ទាល់ជាមួយអ្នកលក់",
                                             "height":44,
@@ -8398,7 +8398,7 @@
             "screen-JRuGYQuhwH":{
                 "id":"web-12",
                 "icon":"heart",
-                "title":"បញ្ជីចាប់អារម្មណ៍របស់ខ្ញុំ",
+                "title":"បញ្ជីចង់បានរបស់ខ្ញុំ",
                 "screen":"wishlist",
                 "buttons":[],
                 "enableClose":false,
