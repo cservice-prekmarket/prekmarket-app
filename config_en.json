@@ -3226,6 +3226,7 @@
       "icon":"assets/icons/tabs/icon-user.png",
       "layout":"profile",
       "settings":[
+        "products",
         "vendorAdmin",
         "web-QVMkHkWDev",
         "biometrics",
