@@ -423,6 +423,7 @@
             "borderRadius":3.0,
             "hMargin":6.0,
             "useCircularRadius":true,
+            "orderby":"rand",
             "useSort":false,
             "showCategory":false,
             "vMargin":0.0,
@@ -521,6 +522,7 @@
             "borderRadius":3.0,
             "hMargin":6.0,
             "useCircularRadius":true,
+            "orderby":"rand",
             "useSort":false,
             "showCategory":false,
             "vMargin":0.0,
@@ -573,6 +575,7 @@
             "borderRadius":3.0,
             "hMargin":6.0,
             "useCircularRadius":true,
+            "orderby":"rand",
             "useSort":false,
             "showCategory":false,
             "vMargin":0.0,
@@ -625,6 +628,7 @@
             "borderRadius":3.0,
             "hMargin":6.0,
             "useCircularRadius":true,
+            "orderby":"rand",
             "useSort":false,
             "showCategory":false,
             "vMargin":0.0,
@@ -723,6 +727,7 @@
             "borderRadius":3.0,
             "hMargin":6.0,
             "useCircularRadius":true,
+            "orderby":"rand",
             "useSort":false,
             "showCategory":false,
             "vMargin":0.0,
@@ -821,6 +826,7 @@
             "borderRadius":3.0,
             "hMargin":6.0,
             "useCircularRadius":true,
+            "orderby":"rand",
             "useSort":false,
             "showCategory":false,
             "vMargin":0.0,
@@ -978,7 +984,7 @@
                     "showSubcategory":false,
                     "bannerWithProduct":false,
                     "defaultShowProduct":false,
-                    "tab_number":"7"
+                    "tab_number":"8"
                 },
                 {
                     "key":"CyMbvHhjIn",
@@ -992,7 +998,7 @@
                     "showSubcategory":false,
                     "bannerWithProduct":false,
                     "defaultShowProduct":false,
-                    "tab_number":"8"
+                    "tab_number":"9"
                 },
                 {
                     "key":"BOwQGZaHIe",
@@ -1006,7 +1012,7 @@
                     "showSubcategory":false,
                     "bannerWithProduct":false,
                     "defaultShowProduct":false,
-                    "tab_number":"9"
+                    "tab_number":"10"
                 },
                 {
                     "key":"dehVrAEnPX",
@@ -1020,7 +1026,7 @@
                     "showSubcategory":false,
                     "bannerWithProduct":false,
                     "defaultShowProduct":false,
-                    "tab_number":"10"
+                    "tab_number":"11"
                 },
                 {
                     "key":"KEhpsLWOmI",
@@ -1034,7 +1040,7 @@
                     "showSubcategory":false,
                     "bannerWithProduct":false,
                     "defaultShowProduct":false,
-                    "tab_number":"11"
+                    "tab_number":"12"
                 },
                 {
                     "key":"wILdiyXwBO",
@@ -1048,7 +1054,7 @@
                     "showSubcategory":false,
                     "bannerWithProduct":false,
                     "defaultShowProduct":false,
-                    "tab_number":"12"
+                    "tab_number":"13"
                 },
                 {
                     "key":"LdZUpvDvtS",
@@ -1062,7 +1068,7 @@
                     "showSubcategory":false,
                     "bannerWithProduct":false,
                     "defaultShowProduct":false,
-                    "tab_number":"13"
+                    "tab_number":"14"
                 },
                 {
                     "key":"ugoMkvAFcu",
@@ -1076,7 +1082,7 @@
                     "showSubcategory":false,
                     "bannerWithProduct":false,
                     "defaultShowProduct":false,
-                    "tab_number":"14"
+                    "tab_number":"15"
                 }
             ],
             "marginBottom":0.0,
@@ -1398,6 +1404,7 @@
             "borderRadius":3.0,
             "hMargin":6.0,
             "useCircularRadius":true,
+            "orderby":"rand",
             "useSort":false,
             "showCategory":false,
             "vMargin":0.0,
@@ -1450,6 +1457,7 @@
             "borderRadius":3.0,
             "hMargin":6.0,
             "useCircularRadius":true,
+            "orderby":"rand",
             "useSort":false,
             "showCategory":false,
             "vMargin":0.0,
@@ -1502,6 +1510,7 @@
             "borderRadius":3.0,
             "hMargin":6.0,
             "useCircularRadius":true,
+            "orderby":"rand",
             "useSort":false,
             "showCategory":false,
             "vMargin":0.0,
@@ -1554,6 +1563,7 @@
             "borderRadius":3.0,
             "hMargin":6.0,
             "useCircularRadius":true,
+            "orderby":"rand",
             "useSort":false,
             "showCategory":false,
             "vMargin":0.0,
@@ -1606,6 +1616,7 @@
             "borderRadius":3.0,
             "hMargin":6.0,
             "useCircularRadius":true,
+            "orderby":"rand",
             "useSort":false,
             "showCategory":false,
             "vMargin":0.0,
@@ -1658,6 +1669,7 @@
             "borderRadius":3.0,
             "hMargin":6.0,
             "useCircularRadius":true,
+            "orderby":"rand",
             "useSort":false,
             "showCategory":false,
             "vMargin":0.0,
@@ -1798,16 +1810,29 @@
         },
 
         {
+            "tag":"790",
             "name":"អត្ថបទ",
             "type":"blog",
             "limit":6,
-            "layout":"twoColumn",
+            "layout":"bannerSlider",
             "radius":0,
+            "slider":{
+                "type":"contentEndCard",
+                "hideTag":true,
+                "autoPlay":false,
+                "colorTag":null,
+                "borderRadius":3,
+                "colorTextTag":null,
+                "limitIndicator":6,
+                "paddingContent":null,
+                "borderRadiusTag":5,
+                "pageIndicatorType":"circle",
+                "secondsAutoSliding":3
+            },
             "hMargin":6,
             "include":[],
             "padding":16,
             "vMargin":0,
-            "tag":"790",
             "hideDate":false,
             "hideTitle":false,
             "cardDesign":"simple",
@@ -3401,6 +3426,734 @@
                     "buttonAlignment":"center"}}
         },
         {
+            "key":"eDWWTUYizd",
+            "icon":"assets/icons/tabs/icon-heartthin.png",
+            "label":"For You",
+            "layout":"dynamic",
+            "configs":{
+                "key":"eDWWTUYizd",
+                "data":{
+                    "id":1,
+                    "container":{
+                        "image":{
+                            "url":"https://images.unsplash.com/photo-1584352587534-5763683125b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80",
+                            "align":{
+                                "x":1,
+                                "y":1
+                            },
+                            "width":1,
+                            "height":0.5
+                        },
+                        "header":{
+                            "text":"About US",
+                            "align":{
+                                "x":-1,
+                                "y":0.8
+                            },
+                            "color":"#FFFFFF",
+                            "padding":{
+                                "vertical":10,
+                                "horizontal":20
+                            },
+                            "background":"#000000"
+                        },
+                        "height":0.5
+                    },
+                    "subHeader":"This is sub heading",
+                    "description":"This is description"
+                },
+                "icon":"assets/icons/tabs/icon-heartthin.png",
+                "layout":"static",
+                "HorizonLayout":[
+                    {
+                        "key":"JxvGRirvrL",
+                        "width":null,
+                        "height":50,
+                        "layout":"animatedStackContainer",
+                        "margin":null,
+                        "fitBody":"loose",
+                        "padding":null,
+                        "autoPlay":true,
+                        "children":[
+                            {
+                                "type":"padding",
+                                "child":{
+                                    "type":"borderRadius",
+                                    "child":{
+                                        "type":"custom",
+                                        "config":{
+                                            "font":"Hanuman",
+                                            "type":"fade",
+                                            "height":44,
+                                            "layout":"header_text",
+                                            "rotate":["កំពុងស្វែងរកដៃគូអាជីរកម្មក្នុងស្រុកជាច្រើន!",
+                                                "ចូលរួមសហគមន៍អ្នកលក់ដែលកំពុងរីកលូតលាស់របស់យើង",
+                                                "ចាប់ផ្តើមជាមួយគ្នា រីកលូតលាស់ជាមួយគ្នា"],
+                                            "fontSize":13,
+                                            "minWidth":0,
+                                            "alignment":"center",
+                                            "marginTop":15,
+                                            "textColor":"FFFFFFFF",
+                                            "fontWeight":500,
+                                            "isSafeArea":false,
+                                            "marginLeft":0,
+                                            "paddingTop":0,
+                                            "showSearch":false,
+                                            "borderInput":false,
+                                            "marginRight":0,
+                                            "paddingLeft":5,
+                                            "productType":true,
+                                            "textOpacity":1,
+                                            "marginBottom":15,
+                                            "paddingRight":15,
+                                            "paddingBottom":0,
+                                            "usePrimaryColor":true,
+                                            "enableBackground":false,
+                                            "backgroundGradientColor":[]
+                                        },
+                                        "scripts":[],
+                                        "largeScreen":null,
+                                        "smallScreen":null
+                                    },
+                                    "scripts":[],
+                                    "largeScreen":null,
+                                    "smallScreen":null,
+                                    "borderRadius":{
+                                        "topEnd":0,
+                                        "topStart":0,
+                                        "bottomEnd":0,
+                                        "bottomStart":0}
+                                },
+                                "padding":{
+                                    "end":null,
+                                    "top":null,
+                                    "start":null,
+                                    "bottom":null
+                                },
+                                "scripts":[],
+                                "largeScreen":null,
+                                "smallScreen":null
+                            }
+                        ],
+                        "background":{
+                            "type":"background",
+                            "child":null,
+                            "color":"ff000000",
+                            "scripts":[],
+                            "largeScreen":null,
+                            "smallScreen":null
+                        },
+                        "decoration":null,
+                        "delayStart":0,
+                        "actionConfig":null,
+                        "clipBorderRadius":null,
+                        "largeScreenMinWidth":null,
+                        "smallScreenMaxWidth":null
+                    },
+                    {
+                        "fit":"fitWidth",
+                        "items":[
+                            {
+                                "key":"VXWqrYlBSn",
+                                "url":"https://prekmarket.com/kh/vendor-register/",
+                                "type":"image",
+                                "image":"https://prekmarket.com/wp-content/uploads/2026/08/vendor_registeration_banner_white_km.webp",
+                                "video":"",
+                                "button":{
+                                    "x":-0.8,
+                                    "y":0.8,
+                                    "text":"Register Now",
+                                    "fontSize":10,
+                                    "textColor":"033FC1BE",
+                                    "fontFamily":"Roboto",
+                                    "backgroundColor":"033FC1BE"
+                                },
+                                "script":"(function() {\n    function hideHeader() {\n        var header = document.querySelector(\n            \"#masthead > div.mobile-menu.header-responsive\"\n        );\n\n        if (header) {\n            header.style.setProperty(\"display\", \"none\", \"important\");\n        }\n    }\n\n    hideHeader();\n\n    window.addEventListener(\"load\", hideHeader);\n\n    var observer = new MutationObserver(hideHeader);\n\n    observer.observe(document.documentElement, {\n        childList: true,\n        subtree: true\n    });\n})();",
+                                "products":[],
+                                "enableForward":false,
+                                "productLength":3,
+                                "requiredLogin":true,
+                                "enableBackward":false,
+                                "showSubcategory":false,
+                                "bannerWithProduct":false,
+                                "defaultShowProduct":false
+                            }
+                        ],
+                        "design":"default",
+                        "height":0.25,
+                        "isBlur":false,
+                        "layout":"bannerImage",
+                        "radius":0,
+                        "padding":0,
+                        "autoPlay":true,
+                        "isSlider":true,
+                        "parallax":false,
+                        "upHeight":0,
+                        "marginTop":0,
+                        "marginLeft":0,
+                        "showNumber":false,
+                        "marginRight":0,
+                        "videoConfig":{
+                            "autoPlay":false,
+                            "isSoundOn":false,
+                            "enableLoop":false,
+                            "aspectRatio":1.7777777777777777,
+                            "showLoading":false,
+                            "tapToPlayPause":true,
+                            "backgroundColor":null,
+                            "holdToPlayPause":false,
+                            "showVolumeButton":true,
+                            "enableTimeIndicator":true,
+                            "showFullScreenButton":true,
+                            "doubleTapToFullScreen":false
+                        },
+                        "intervalTime":3,
+                        "isHorizontal":false,
+                        "marginBottom":0,
+                        "numberPadding":{
+                            "end":0,
+                            "top":15,
+                            "start":0,
+                            "bottom":0
+                        },
+                        "showIndicator":true,
+                        "showBackground":false,
+                        "numberAlignment":{
+                            "value":"topEnd"
+                        },
+                        "enableBackground":false,
+                        "indicatorPadding":{
+                            "end":0,
+                            "top":0,
+                            "start":0,
+                            "bottom":12
+                        },
+                        "pageIndicatorType":"circle",
+                        "indicatorAlignment":{
+                            "value":"bottomCenter"
+                        },
+                        "parallaxImageRatio":1.2
+                    },
+                    {
+                        "key":"NFIfauWCFo",
+                        "width":null,
+                        "height":50,
+                        "layout":"animatedStackContainer",
+                        "margin":{
+                            "end":0,
+                            "top":0,
+                            "start":0,
+                            "bottom":0
+                        },
+                        "fitBody":"loose",
+                        "padding":null,
+                        "autoPlay":true,
+                        "children":[
+                            {
+                                "type":"padding",
+                                "child":{
+                                    "type":"borderRadius",
+                                    "child":{
+                                        "type":"custom",
+                                        "config":{
+                                            "font":"Hanuman",
+                                            "type":"static",
+                                            "title":"ℹ️ ព័ត៌មានបន្ថែមអំពីផលិតផល សូមទំនាក់ទំនងផ្ទាល់ជាមួយអ្នកលក់",
+                                            "height":44,
+                                            "layout":"header_text",
+                                            "rotate":[],
+                                            "fontSize":13,
+                                            "minWidth":0,
+                                            "alignment":"center",
+                                            "marginTop":15,
+                                            "textColor":"FF000000",
+                                            "fontWeight":500,
+                                            "isSafeArea":false,
+                                            "marginLeft":0,
+                                            "paddingTop":0,
+                                            "showSearch":false,
+                                            "borderInput":false,
+                                            "marginRight":0,
+                                            "paddingLeft":5,
+                                            "productType":true,
+                                            "textOpacity":1,
+                                            "marginBottom":15,
+                                            "paddingRight":15,
+                                            "paddingBottom":0,
+                                            "usePrimaryColor":true,
+                                            "enableBackground":false,
+                                            "backgroundGradientColor":[]
+                                        },
+                                        "scripts":[],
+                                        "largeScreen":null,
+                                        "smallScreen":null
+                                    },
+                                    "scripts":[],
+                                    "largeScreen":null,
+                                    "smallScreen":null,
+                                    "borderRadius":{
+                                        "topEnd":0,
+                                        "topStart":0,
+                                        "bottomEnd":0,
+                                        "bottomStart":0}
+                                },
+                                "padding":{
+                                    "end":null,
+                                    "top":null,
+                                    "start":6,
+                                    "bottom":null
+                                },
+                                "scripts":[],
+                                "largeScreen":null,
+                                "smallScreen":null
+                            }
+                        ],
+                        "background":{
+                            "type":"background",
+                            "child":null,
+                            "color":"ffe6e9e7",
+                            "scripts":[],
+                            "largeScreen":null,
+                            "smallScreen":null
+                        },
+                        "decoration":null,
+                        "delayStart":null,
+                        "actionConfig":null,
+                        "clipBorderRadius":null,
+                        "largeScreenMinWidth":null,
+                        "smallScreenMaxWidth":null
+                    },
+                    {
+                        "name":"បញ្ចុះតម្លៃឥឡូវ 🛍",
+                        "rows":1,
+                        "limit":6,
+                        "layout":"threeColumn",
+                        "onSale":true,
+                        "columns":0,
+                        "hMargin":6,
+                        "orderby":"rand",
+                        "useSort":false,
+                        "vMargin":0,
+                        "category":"",
+                        "featured":false,
+                        "hPadding":6,
+                        "parallax":false,
+                        "vPadding":0,
+                        "hidePrice":false,
+                        "hideTitle":false,
+                        "showHeart":true,
+                        "titleLine":1,
+                        "cardDesign":"card",
+                        "imageRatio":1,
+                        "isSnapping":false,
+                        "storeStyle":"normal",
+                        "hideAddress":false,
+                        "imageBoxfit":"cover",
+                        "borderRadius":3,
+                        "enableRating":true,
+                        "showCartIcon":false,
+                        "showCategory":false,
+                        "showQuantity":false,
+                        "showCountDown":false,
+                        "showOnlyImage":false,
+                        "advancedParams":{
+                        },
+                        "cartIconRadius":9,
+                        "showCartButton":false,
+                        "showListingType":true,
+                        "showPhoneNumber":false,
+                        "showStockStatus":true,
+                        "backgroundRadius":10,
+                        "enableAutoSliding":false,
+                        "showCartIconColor":false,
+                        "showStockQuantity":false,
+                        "useCircularRadius":true,
+                        "parallaxImageRatio":1.2,
+                        "showShortDescription":false,
+                        "enableBottomAddToCart":true,
+                        "productListItemHeight":100,
+                        "cartButtonQuantitySize":40,
+                        "hideEmptyProductLayout":false,
+                        "showProductCardCategory":false,
+                        "hideEmptyProductListRating":false,
+                        "showCartButtonWithQuantity":false
+                    },
+                    {
+                        "key":"iVLwBVxjtM",
+                        "width":null,
+                        "height":150,
+                        "layout":"animatedStackContainer",
+                        "margin":{
+                            "end":15,
+                            "top":8,
+                            "start":15,
+                            "bottom":8
+                        },
+                        "fitBody":"loose",
+                        "padding":null,
+                        "autoPlay":true,
+                        "children":[
+                            {
+                                "type":"padding",
+                                "child":{
+                                    "axis":"vertical",
+                                    "type":"column",
+                                    "scripts":[],
+                                    "children":[
+                                        {
+                                            "axis":"vertical",
+                                            "type":"column",
+                                            "scripts":[],
+                                            "children":[
+                                                {
+                                                    "text":"យើងកំពុងកសាង",
+                                                    "type":"text",
+                                                    "scripts":[],
+                                                    "largeScreen":null,
+                                                    "smallScreen":null,
+                                                    "actionConfig":null,
+                                                    "textStyleConfig":{
+                                                        "maxLines":null,
+                                                        "minLines":null,
+                                                        "textAlign":null,
+                                                        "customStyle":{
+                                                            "color":{
+                                                                "color":"#ff101828",
+                                                                "runtimeType":"solid"
+                                                            },
+                                                            "height":null,
+                                                            "shadows":null,
+                                                            "fontSize":18,
+                                                            "overflow":null,
+                                                            "fontStyle":null,
+                                                            "decoration":null,
+                                                            "fontFamily":"Hanuman",
+                                                            "fontWeight":"w700",
+                                                            "wordSpacing":null,
+                                                            "letterSpacing":null,
+                                                            "backgroundColor":null,
+                                                            "decorationColor":null,
+                                                            "decorationStyle":null,
+                                                            "decorationThickness":null
+                                                        },
+                                                        "styleSource":null,
+                                                        "textOverflow":null,
+                                                        "containerConfig":null}
+                                                },
+                                                {
+                                                    "type":"sizedBox",
+                                                    "child":null,
+                                                    "width":null,
+                                                    "height":5,
+                                                    "scripts":[],
+                                                    "largeScreen":null,
+                                                    "smallScreen":null
+                                                },
+                                                {
+                                                    "axis":"horizontal",
+                                                    "type":"row",
+                                                    "scripts":[],
+                                                    "children":[
+                                                        {
+                                                            "text":"សហគមន៍នៅទីនេះ",
+                                                            "type":"text",
+                                                            "scripts":[],
+                                                            "largeScreen":null,
+                                                            "smallScreen":null,
+                                                            "actionConfig":null,
+                                                            "textStyleConfig":{
+                                                                "maxLines":null,
+                                                                "minLines":null,
+                                                                "textAlign":null,
+                                                                "customStyle":{
+                                                                    "color":{
+                                                                        "color":"#ff101828",
+                                                                        "runtimeType":"solid"
+                                                                    },
+                                                                    "height":null,
+                                                                    "shadows":null,
+                                                                    "fontSize":18,
+                                                                    "overflow":null,
+                                                                    "fontStyle":null,
+                                                                    "decoration":null,
+                                                                    "fontFamily":"Hanuman",
+                                                                    "fontWeight":"w700",
+                                                                    "wordSpacing":null,
+                                                                    "letterSpacing":null,
+                                                                    "backgroundColor":null,
+                                                                    "decorationColor":null,
+                                                                    "decorationStyle":null,
+                                                                    "decorationThickness":null
+                                                                },
+                                                                "styleSource":null,
+                                                                "textOverflow":null,
+                                                                "containerConfig":null}
+                                                        }
+                                                    ],
+                                                    "largeScreen":null,
+                                                    "smallScreen":null,
+                                                    "mainAxisSize":"max",
+                                                    "mainAxisAlignment":"start",
+                                                    "crossAxisAlignment":"start"
+                                                }
+                                            ],
+                                            "largeScreen":null,
+                                            "smallScreen":null,
+                                            "mainAxisSize":"min",
+                                            "mainAxisAlignment":"start",
+                                            "crossAxisAlignment":"start"
+                                        }
+                                    ],
+                                    "largeScreen":null,
+                                    "smallScreen":null,
+                                    "mainAxisSize":"max",
+                                    "mainAxisAlignment":"spaceBetween",
+                                    "crossAxisAlignment":"start"
+                                },
+                                "padding":{
+                                    "end":130,
+                                    "top":30,
+                                    "start":17,
+                                    "bottom":20
+                                },
+                                "scripts":[
+                                    {
+                                        "type":"animation",
+                                        "delay":800,
+                                        "duration":500,
+                                        "endState":{
+                                            "opacity":1
+                                        },
+                                        "curveType":"linear",
+                                        "startState":{
+                                            "opacity":0}
+                                    }
+                                ],
+                                "largeScreen":null,
+                                "smallScreen":null
+                            },
+                            {
+                                "type":"elevatedButton",
+                                "child":{
+                                    "type":"padding",
+                                    "child":{
+                                        "text":"ចុះឈ្មោះឥឡូវ!",
+                                        "type":"text",
+                                        "scripts":[],
+                                        "largeScreen":null,
+                                        "smallScreen":null,
+                                        "actionConfig":null,
+                                        "textStyleConfig":{
+                                            "maxLines":null,
+                                            "minLines":null,
+                                            "textAlign":null,
+                                            "customStyle":{
+                                                "color":{
+                                                    "color":"#ffffffff",
+                                                    "runtimeType":"solid"
+                                                },
+                                                "height":null,
+                                                "shadows":null,
+                                                "fontSize":15,
+                                                "overflow":null,
+                                                "fontStyle":null,
+                                                "decoration":null,
+                                                "fontFamily":"Hanuman",
+                                                "fontWeight":"w600",
+                                                "wordSpacing":null,
+                                                "letterSpacing":null,
+                                                "backgroundColor":null,
+                                                "decorationColor":null,
+                                                "decorationStyle":null,
+                                                "decorationThickness":null
+                                            },
+                                            "styleSource":null,
+                                            "textOverflow":null,
+                                            "containerConfig":null}
+                                    },
+                                    "padding":{
+                                        "end":20,
+                                        "top":10,
+                                        "start":20,
+                                        "bottom":10
+                                    },
+                                    "scripts":[],
+                                    "largeScreen":null,
+                                    "smallScreen":null
+                                },
+                                "color":"ffb54708",
+                                "style":null,
+                                "scripts":[
+                                    {
+                                        "end":null,
+                                        "top":null,
+                                        "start":20,
+                                        "bottom":10,
+                                        "isFill":false
+                                    },
+                                    {
+                                        "type":"animation",
+                                        "delay":1200,
+                                        "duration":400,
+                                        "endState":{
+                                            "x":0,
+                                            "y":0
+                                        },
+                                        "curveType":"linear",
+                                        "startState":{
+                                            "x":-2,
+                                            "y":0}
+                                    }
+                                ],
+                                "elevation":null,
+                                "largeScreen":null,
+                                "minimumSize":null,
+                                "smallScreen":null,
+                                "actionConfig":{
+                                    "key":"ITdGFgcouZ",
+                                    "url":"https://prekmarket.com/kh/vendor-register/",
+                                    "title":"ក្លាយជាអ្នកលក់",
+                                    "script":"(function() {\n    function hideHeader() {\n        var header = document.querySelector(\n            \"#masthead > div.mobile-menu.header-responsive\"\n        );\n\n        if (header) {\n            header.style.setProperty(\"display\", \"none\", \"important\");\n        }\n    }\n\n    hideHeader();\n\n    window.addEventListener(\"load\", hideHeader);\n\n    var observer = new MutationObserver(hideHeader);\n\n    observer.observe(document.documentElement, {\n        childList: true,\n        subtree: true\n    });\n})();",
+                                    "enableForward":false,
+                                    "requiredLogin":true,
+                                    "enableBackward":false
+                                },
+                                "borderRadius":30
+                            },
+                            {
+                                "type":"align",
+                                "child":{
+                                    "fit":"contain",
+                                    "url":"https://prekmarket.com/wp-content/uploads/2026/08/Delivery-Shop_banner1.webp",
+                                    "type":"image",
+                                    "width":180,
+                                    "height":125,
+                                    "scripts":[],
+                                    "largeScreen":null,
+                                    "smallScreen":null,
+                                    "actionConfig":null
+                                },
+                                "scripts":[
+                                    {
+                                        "type":"animation",
+                                        "delay":100,
+                                        "duration":500,
+                                        "endState":{
+                                            "x":0,
+                                            "y":0
+                                        },
+                                        "curveType":"linear",
+                                        "startState":{
+                                            "x":2,
+                                            "y":0}
+                                    }
+                                ],
+                                "alignment":"centerRight",
+                                "largeScreen":null,
+                                "smallScreen":null
+                            },
+                            {
+                                "fit":"cover",
+                                "url":"",
+                                "type":"image",
+                                "width":null,
+                                "height":null,
+                                "scripts":[],
+                                "largeScreen":null,
+                                "smallScreen":null,
+                                "actionConfig":null
+                            },
+                            {
+                                "fit":"cover",
+                                "url":"",
+                                "type":"image",
+                                "width":null,
+                                "height":null,
+                                "scripts":[],
+                                "largeScreen":null,
+                                "smallScreen":null,
+                                "actionConfig":null
+                            }
+                        ],
+                        "background":{
+                            "type":"background",
+                            "child":null,
+                            "color":"fffedf89",
+                            "scripts":[],
+                            "largeScreen":null,
+                            "smallScreen":null
+                        },
+                        "decoration":null,
+                        "delayStart":null,
+                        "actionConfig":null,
+                        "clipBorderRadius":8,
+                        "largeScreenMinWidth":null,
+                        "smallScreenMaxWidth":null
+                    }
+                ],
+                "VerticalLayout":{
+                    "key":"QjQpGJWTAS",
+                    "name":"ទំនិញថ្មីៗ",
+                    "rows":1,
+                    "layout":"VerticalLayout",
+                    "onSale":false,
+                    "columns":3,
+                    "hMargin":6,
+                    "orderby":"rand",
+                    "shuffle":null,
+                    "useSort":false,
+                    "vMargin":6,
+                    "hPadding":6,
+                    "parallax":false,
+                    "vPadding":0,
+                    "hidePrice":false,
+                    "hideTitle":false,
+                    "showHeart":true,
+                    "titleLine":1,
+                    "cardDesign":"card",
+                    "imageRatio":1,
+                    "isSnapping":false,
+                    "storeStyle":"normal",
+                    "hideAddress":false,
+                    "imageBoxfit":"contain",
+                    "borderRadius":3,
+                    "enableRating":true,
+                    "showCartIcon":false,
+                    "showCategory":false,
+                    "showQuantity":false,
+                    "showCountDown":false,
+                    "showOnlyImage":false,
+                    "advancedParams":{
+                    },
+                    "cartIconRadius":9,
+                    "categoryConfig":null,
+                    "showCartButton":false,
+                    "showListingType":true,
+                    "showPhoneNumber":false,
+                    "showStockStatus":true,
+                    "backgroundRadius":10,
+                    "enableAutoSliding":false,
+                    "showCartIconColor":false,
+                    "showStockQuantity":false,
+                    "useCircularRadius":true,
+                    "parallaxImageRatio":1.2,
+                    "showShortDescription":false,
+                    "enableBottomAddToCart":true,
+                    "productListItemHeight":100,
+                    "cartButtonQuantitySize":40,
+                    "hideEmptyProductLayout":false,
+                    "showProductCardCategory":false,
+                    "hideEmptyProductListRating":false,
+                    "showCartButtonWithQuantity":false}
+            },
+            "visible":true,
+            "menuLabel":"សម្រាប់អ្នក",
+            "defaultTab":false,
+            "fullscreen":true,
+            "groupLayout":true,
+            "showOriginalColor":false
+        },
+        {
             "label":"Baby & Kids",
             "key":"eDWWTUYizd",
             "icon":"assets/icons/tabs/icon-heartthin.png",
@@ -3845,11 +4598,26 @@
                         "fit":"fitWidth",
                         "items":[
                             {
+                                "key":"GJFfIDmBMT",
+                                "url":"https://prekmarket.com/kh/vendor-register/",
                                 "type":"image",
                                 "image":"https://prekmarket.com/wp-content/uploads/2026/07/become_vendor_banner_km-1-scaled.webp",
                                 "video":"",
+                                "button":{
+                                    "x":0.6,
+                                    "y":0.5,
+                                    "text":"become vendor",
+                                    "fontSize":10,
+                                    "textColor":"033FC1BE",
+                                    "fontFamily":"Roboto",
+                                    "backgroundColor":"033FC1BE"
+                                },
+                                "script":"(function() {\n    function hideHeader() {\n        var header = document.querySelector(\n            \"#masthead > div.mobile-menu.header-responsive\"\n        );\n\n        if (header) {\n            header.style.setProperty(\"display\", \"none\", \"important\");\n        }\n    }\n\n    hideHeader();\n\n    window.addEventListener(\"load\", hideHeader);\n\n    var observer = new MutationObserver(hideHeader);\n\n    observer.observe(document.documentElement, {\n        childList: true,\n        subtree: true\n    });\n})();",
                                 "products":[],
+                                "enableForward":false,
                                 "productLength":3,
+                                "requiredLogin":true,
+                                "enableBackward":false,
                                 "showSubcategory":false,
                                 "bannerWithProduct":false,
                                 "defaultShowProduct":false
@@ -4340,11 +5108,26 @@
                         "fit":"fitWidth",
                         "items":[
                             {
+                                "key":"GJFfIDmBMT",
+                                "url":"https://prekmarket.com/kh/vendor-register/",
                                 "type":"image",
                                 "image":"https://prekmarket.com/wp-content/uploads/2026/07/become_vendor_banner_km-1-scaled.webp",
                                 "video":"",
+                                "button":{
+                                    "x":0.6,
+                                    "y":0.5,
+                                    "text":"become vendor",
+                                    "fontSize":10,
+                                    "textColor":"033FC1BE",
+                                    "fontFamily":"Roboto",
+                                    "backgroundColor":"033FC1BE"
+                                },
+                                "script":"(function() {\n    function hideHeader() {\n        var header = document.querySelector(\n            \"#masthead > div.mobile-menu.header-responsive\"\n        );\n\n        if (header) {\n            header.style.setProperty(\"display\", \"none\", \"important\");\n        }\n    }\n\n    hideHeader();\n\n    window.addEventListener(\"load\", hideHeader);\n\n    var observer = new MutationObserver(hideHeader);\n\n    observer.observe(document.documentElement, {\n        childList: true,\n        subtree: true\n    });\n})();",
                                 "products":[],
+                                "enableForward":false,
                                 "productLength":3,
+                                "requiredLogin":true,
+                                "enableBackward":false,
                                 "showSubcategory":false,
                                 "bannerWithProduct":false,
                                 "defaultShowProduct":false
@@ -5136,11 +5919,26 @@
                         "fit":"fitWidth",
                         "items":[
                             {
+                                "key":"GJFfIDmBMT",
+                                "url":"https://prekmarket.com/kh/vendor-register/",
                                 "type":"image",
                                 "image":"https://prekmarket.com/wp-content/uploads/2026/07/become_vendor_banner_km-1-scaled.webp",
                                 "video":"",
+                                "button":{
+                                    "x":0.6,
+                                    "y":0.5,
+                                    "text":"become vendor",
+                                    "fontSize":10,
+                                    "textColor":"033FC1BE",
+                                    "fontFamily":"Roboto",
+                                    "backgroundColor":"033FC1BE"
+                                },
+                                "script":"(function() {\n    function hideHeader() {\n        var header = document.querySelector(\n            \"#masthead > div.mobile-menu.header-responsive\"\n        );\n\n        if (header) {\n            header.style.setProperty(\"display\", \"none\", \"important\");\n        }\n    }\n\n    hideHeader();\n\n    window.addEventListener(\"load\", hideHeader);\n\n    var observer = new MutationObserver(hideHeader);\n\n    observer.observe(document.documentElement, {\n        childList: true,\n        subtree: true\n    });\n})();",
                                 "products":[],
+                                "enableForward":false,
                                 "productLength":3,
+                                "requiredLogin":true,
+                                "enableBackward":false,
                                 "showSubcategory":false,
                                 "bannerWithProduct":false,
                                 "defaultShowProduct":false
@@ -5735,11 +6533,26 @@
                         "fit":"fitWidth",
                         "items":[
                             {
+                                "key":"GJFfIDmBMT",
+                                "url":"https://prekmarket.com/kh/vendor-register/",
                                 "type":"image",
                                 "image":"https://prekmarket.com/wp-content/uploads/2026/07/become_vendor_banner_km-1-scaled.webp",
                                 "video":"",
+                                "button":{
+                                    "x":0.6,
+                                    "y":0.5,
+                                    "text":"become vendor",
+                                    "fontSize":10,
+                                    "textColor":"033FC1BE",
+                                    "fontFamily":"Roboto",
+                                    "backgroundColor":"033FC1BE"
+                                },
+                                "script":"(function() {\n    function hideHeader() {\n        var header = document.querySelector(\n            \"#masthead > div.mobile-menu.header-responsive\"\n        );\n\n        if (header) {\n            header.style.setProperty(\"display\", \"none\", \"important\");\n        }\n    }\n\n    hideHeader();\n\n    window.addEventListener(\"load\", hideHeader);\n\n    var observer = new MutationObserver(hideHeader);\n\n    observer.observe(document.documentElement, {\n        childList: true,\n        subtree: true\n    });\n})();",
                                 "products":[],
+                                "enableForward":false,
                                 "productLength":3,
+                                "requiredLogin":true,
+                                "enableBackward":false,
                                 "showSubcategory":false,
                                 "bannerWithProduct":false,
                                 "defaultShowProduct":false
@@ -6310,11 +7123,26 @@
                         "fit":"fitWidth",
                         "items":[
                             {
+                                "key":"GJFfIDmBMT",
+                                "url":"https://prekmarket.com/kh/vendor-register/",
                                 "type":"image",
                                 "image":"https://prekmarket.com/wp-content/uploads/2026/07/become_vendor_banner_km-1-scaled.webp",
                                 "video":"",
+                                "button":{
+                                    "x":0.6,
+                                    "y":0.5,
+                                    "text":"become vendor",
+                                    "fontSize":10,
+                                    "textColor":"033FC1BE",
+                                    "fontFamily":"Roboto",
+                                    "backgroundColor":"033FC1BE"
+                                },
+                                "script":"(function() {\n    function hideHeader() {\n        var header = document.querySelector(\n            \"#masthead > div.mobile-menu.header-responsive\"\n        );\n\n        if (header) {\n            header.style.setProperty(\"display\", \"none\", \"important\");\n        }\n    }\n\n    hideHeader();\n\n    window.addEventListener(\"load\", hideHeader);\n\n    var observer = new MutationObserver(hideHeader);\n\n    observer.observe(document.documentElement, {\n        childList: true,\n        subtree: true\n    });\n})();",
                                 "products":[],
+                                "enableForward":false,
                                 "productLength":3,
+                                "requiredLogin":true,
+                                "enableBackward":false,
                                 "showSubcategory":false,
                                 "bannerWithProduct":false,
                                 "defaultShowProduct":false
@@ -6861,11 +7689,26 @@
                         "fit":"fitWidth",
                         "items":[
                             {
+                                "key":"GJFfIDmBMT",
+                                "url":"https://prekmarket.com/kh/vendor-register/",
                                 "type":"image",
                                 "image":"https://prekmarket.com/wp-content/uploads/2026/07/become_vendor_banner_km-1-scaled.webp",
                                 "video":"",
+                                "button":{
+                                    "x":0.6,
+                                    "y":0.5,
+                                    "text":"become vendor",
+                                    "fontSize":10,
+                                    "textColor":"033FC1BE",
+                                    "fontFamily":"Roboto",
+                                    "backgroundColor":"033FC1BE"
+                                },
+                                "script":"(function() {\n    function hideHeader() {\n        var header = document.querySelector(\n            \"#masthead > div.mobile-menu.header-responsive\"\n        );\n\n        if (header) {\n            header.style.setProperty(\"display\", \"none\", \"important\");\n        }\n    }\n\n    hideHeader();\n\n    window.addEventListener(\"load\", hideHeader);\n\n    var observer = new MutationObserver(hideHeader);\n\n    observer.observe(document.documentElement, {\n        childList: true,\n        subtree: true\n    });\n})();",
                                 "products":[],
+                                "enableForward":false,
                                 "productLength":3,
+                                "requiredLogin":true,
+                                "enableBackward":false,
                                 "showSubcategory":false,
                                 "bannerWithProduct":false,
                                 "defaultShowProduct":false
@@ -7416,11 +8259,26 @@
                         "fit":"fitWidth",
                         "items":[
                             {
+                                "key":"GJFfIDmBMT",
+                                "url":"https://prekmarket.com/kh/vendor-register/",
                                 "type":"image",
                                 "image":"https://prekmarket.com/wp-content/uploads/2026/07/become_vendor_banner_km-1-scaled.webp",
                                 "video":"",
+                                "button":{
+                                    "x":0.6,
+                                    "y":0.5,
+                                    "text":"become vendor",
+                                    "fontSize":10,
+                                    "textColor":"033FC1BE",
+                                    "fontFamily":"Roboto",
+                                    "backgroundColor":"033FC1BE"
+                                },
+                                "script":"(function() {\n    function hideHeader() {\n        var header = document.querySelector(\n            \"#masthead > div.mobile-menu.header-responsive\"\n        );\n\n        if (header) {\n            header.style.setProperty(\"display\", \"none\", \"important\");\n        }\n    }\n\n    hideHeader();\n\n    window.addEventListener(\"load\", hideHeader);\n\n    var observer = new MutationObserver(hideHeader);\n\n    observer.observe(document.documentElement, {\n        childList: true,\n        subtree: true\n    });\n})();",
                                 "products":[],
+                                "enableForward":false,
                                 "productLength":3,
+                                "requiredLogin":true,
+                                "enableBackward":false,
                                 "showSubcategory":false,
                                 "bannerWithProduct":false,
                                 "defaultShowProduct":false
@@ -7988,11 +8846,26 @@
                         "fit":"fitWidth",
                         "items":[
                             {
+                                "key":"GJFfIDmBMT",
+                                "url":"https://prekmarket.com/kh/vendor-register/",
                                 "type":"image",
                                 "image":"https://prekmarket.com/wp-content/uploads/2026/07/become_vendor_banner_km-1-scaled.webp",
                                 "video":"",
+                                "button":{
+                                    "x":0.6,
+                                    "y":0.5,
+                                    "text":"become vendor",
+                                    "fontSize":10,
+                                    "textColor":"033FC1BE",
+                                    "fontFamily":"Roboto",
+                                    "backgroundColor":"033FC1BE"
+                                },
+                                "script":"(function() {\n    function hideHeader() {\n        var header = document.querySelector(\n            \"#masthead > div.mobile-menu.header-responsive\"\n        );\n\n        if (header) {\n            header.style.setProperty(\"display\", \"none\", \"important\");\n        }\n    }\n\n    hideHeader();\n\n    window.addEventListener(\"load\", hideHeader);\n\n    var observer = new MutationObserver(hideHeader);\n\n    observer.observe(document.documentElement, {\n        childList: true,\n        subtree: true\n    });\n})();",
                                 "products":[],
+                                "enableForward":false,
                                 "productLength":3,
+                                "requiredLogin":true,
+                                "enableBackward":false,
                                 "showSubcategory":false,
                                 "bannerWithProduct":false,
                                 "defaultShowProduct":false
