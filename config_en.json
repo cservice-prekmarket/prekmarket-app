@@ -1951,7 +1951,9 @@
               "productLength":3,
               "showSubcategory":false,
               "bannerWithProduct":false,
-              "defaultShowProduct":false
+              "defaultShowProduct":false,
+              "key":"OUsYxEidaR",
+              "tab_number":"10"
             }
           ],
           "design":"static",
@@ -1985,7 +1987,7 @@
           },
           "parallaxImageRatio":1.2
         },
-        "enable":false,
+        "enable":true,
         "iconSize":24,
         "updatedTime":1760882501159,
         "closePosition":"topRight",
