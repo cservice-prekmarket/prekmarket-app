@@ -1987,7 +1987,7 @@
           },
           "parallaxImageRatio":1.2
         },
-        "enable":true,
+        "enable":false,
         "iconSize":24,
         "updatedTime":1760882501159,
         "closePosition":"topRight",
@@ -5289,7 +5289,7 @@
                       "type":"fade",
                       "height":44,
                       "layout":"header_text",
-                      "rotate":["🚚 Free Shipping on Orders from $30"],
+                      "rotate":["🚚 Free Shipping on Orders of 2 Books"],
                       "fontSize":13,
                       "minWidth":0,
                       "alignment":"center",
